@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=585
+
+This is my first vim script and there are plenty of bugs.  If you can help out, please do.
+
+This script is a plugin to be used with the winmanager plugin (see vimscript #95).  The script searches all your buffers for TODO, FIXME, NOTE, BUG, XXX comments found in your code and presents them in a list.  You can sort the list by type, file, line number, date, or by the text of the todo.  You can also customize the columns in the todo list.
+
+Commands:
+=========
+
+<cr> : open todo under cursor
+p : [p]review todo under cursor
+C-w z : close preview window
+x : zoom todo list window
+s : cycle [s]ort field
+c : toggle preview on [C]ursorHold
+y : toggle s[y]ntax
+r : [r]everse sort
+? : toggle help
+
